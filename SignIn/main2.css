@@ -6,22 +6,21 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
     gap: 0% 0px; 
     grid-template-areas: 
-      "img Sign-In "
+      "img Sign-Up"
       "img Name"
       "img Email"
       "img Password"
-      "img Sign-In-btn"
+      "img Sign-Up-btn "
       "img paragraph"
       "img social-link"; 
   }
   .Name {grid-area: Name;margin: auto;font-size: xx-large;}
   .Email { grid-area: Email;margin: auto;}
   .Password { grid-area: Password;margin: auto;}
-  .Sign-In { grid-area: Sign-In;margin: auto;text-align: center;}
+  .Sign-In { grid-area: Sign-In;margin: auto;}
   .Sign-In-btn { grid-area: Sign-In-btn;margin: auto;font-size: large;align-self: stretch;}
   .paragraph { grid-area: paragraph;margin: auto; }
   .social-link { grid-area: social-link;justify-self: center; }
-  .img { grid-area: img;}
-  
+  .img { grid-area: img; }
 
   
